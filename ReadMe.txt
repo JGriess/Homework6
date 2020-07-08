@@ -1,0 +1,1 @@
+Weather app that searches for city and gives info.
