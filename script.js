@@ -30,7 +30,7 @@ function his() {
 function search() {
     $.ajax({
         type: "Get",
-        url: "http://api.openweathermap.org/data/2.5/forecast?q=" + seaInp + "&units=imperial&APPID=2e39d2f153ebc4b5c6bc32bbf26581d0",
+        url: "https://api.openweathermap.org/data/2.5/forecast?q=" + seaInp + "&units=imperial&APPID=2e39d2f153ebc4b5c6bc32bbf26581d0",
 
     }).then(function (response) {
         for(var i = 0; i < response.list.length; i += 8){
